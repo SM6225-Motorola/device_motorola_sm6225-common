@@ -11,6 +11,11 @@
 /dev/block/platform/soc/4804000\.ufshc/by-name/vendor_boot_[ab] u:object_r:boot_block_device:s0
 /dev/block/platform/soc/4804000\.ufshc/sd[df]                   u:object_r:vendor_gpt_block_device:s0
 
+# Charger
+/data/vendor/chargeonly(/.*)?                           u:object_r:chargeonly_vendor_data_file:s0
+/(mnt/vendor/persist|persist)/chargeonly(/.*)?          u:object_r:persist_chargeonly_file:s0
+/(vendor|system/vendor)/bin/charge_only_mode            u:object_r:charge_only_exec:s0
+
 # EMMC/UFS Devices
 /dev/block/platform/soc/4744000\.sdhci/by-name/hw               u:object_r:vendor_hw_block_device:s0
 /dev/block/platform/soc/4744000\.sdhci/by-name/prodpersist      u:object_r:vendor_prodpersist_block_device:s0
