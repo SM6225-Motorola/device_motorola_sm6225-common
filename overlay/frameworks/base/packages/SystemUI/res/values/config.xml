@@ -22,6 +22,9 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- Enable doze mode -->
+    <bool name="doze_display_state_supported">false</bool>
+
     <!-- Vibrator pattern for camera gesture launch. -->
     <integer-array name="config_cameraLaunchGestureVibePattern">
         <item>0</item>
