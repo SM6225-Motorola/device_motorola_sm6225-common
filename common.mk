@@ -250,6 +250,7 @@ PRODUCT_PACKAGES += \
     FrameworksResProduct \
     FrameworksResTarget \
     NcmTetheringOverlay \
+    SettingsProviderResCommon \
     SystemUIResCommon \
     TelephonyResProduct \
     WifiResCommon
